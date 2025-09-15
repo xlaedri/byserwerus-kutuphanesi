@@ -4,6 +4,9 @@ export default function Home() {
       <h1>BySerwerus DigiTalk Kütüphanesi</h1>
       <p>3D kitaplar ve sosyal özelliklerle dijital okuma deneyimi</p>
       <p>Site yapım aşamasındadır. Yakında hizmetinizde!</p>
+    </div>
+  );
+}
       
       <div style={{ marginTop: '30px' }}>
         <h2>Öne Çıkan Kitaplar</h2>
