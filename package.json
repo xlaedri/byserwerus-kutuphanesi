@@ -5,11 +5,24 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export",
+    "lint": "next lint"
   },
   "dependencies": {
-    "next": "^13.0.0",
+    "next": "^14.0.0",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
-  }
+    "react-dom": "^18.0.0",
+    "three": "^0.158.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["books", "library", "3d", "social"],
+  "author": "xlaedri",
+  "license": "MIT"
 }
