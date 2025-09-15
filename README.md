@@ -1,4 +1,4 @@
-# BySerwerus Kütüphanesi
+# BySerwerus Kütüphanesi Murat COSKUN'da Tüm hakları saklıdır.
 
 3D kitaplar ve sosyal özelliklerle dijital kütüphane platformu.
 
