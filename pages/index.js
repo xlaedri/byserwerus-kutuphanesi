@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div style={{ padding: '50px', textAlign: 'center', fontFamily: 'Arial' }}>
-      <h1>BySerwerus Kütüphanesi</h1>
+      <h1>BySerwerus DigiTalk Kütüphanesi</h1>
       <p>3D kitaplar ve sosyal özelliklerle dijital okuma deneyimi</p>
       <p>Site yapım aşamasındadır. Yakında hizmetinizde!</p>
       
