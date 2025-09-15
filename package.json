@@ -1,27 +1,20 @@
 {
   "name": "byserwerus-kutuphanesi",
-  "version": "1.0.0",
-  "description": "Digital book library with 3D books and social features",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next export && mv out public"
+    "lint": "next lint"
   },
   "dependencies": {
-    "next": "^14.0.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "three": "^0.158.0"
+    "next": "13.4.9",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "eslint": "^8.0.0",
-    "eslint-config-next": "^14.0.0"
-  },
-  "engines": {
-    "node": ">=18.0.0"
-  },
-  "keywords": ["books", "library", "3d", "social"],
-  "author": "xlaedri",
-  "license": "MIT"
+    "eslint": "8.44.0",
+    "eslint-config-next": "13.4.9"
+  }
 }
