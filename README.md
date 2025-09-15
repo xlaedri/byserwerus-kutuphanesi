@@ -1,2 +1,2 @@
 # byserwerus-kutuphanesi
-Digital book library with 3D books and social features
+Digital book library with 3D books and social feature
