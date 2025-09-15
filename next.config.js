@@ -2,11 +2,12 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  output: 'export',
   images: {
     unoptimized: true
   },
-  // Önemli: Eğer static export yapacaksanız bu satırı ekleyin
-  // output: 'export',
+  trailingSlash: true,
+  distDir: 'out',
   async headers() {
     return [
       {
