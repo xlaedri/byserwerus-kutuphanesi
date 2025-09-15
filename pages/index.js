@@ -7,26 +7,29 @@ export default function Home() {
       
       <div style={{ marginTop: '30px' }}>
         <h2>Öne Çıkan Kitaplar</h2>
-        <ul style={{ listStyle: 'none', padding: 0 }}>
-          <li>Sineklerin Tanrısı - William Golding</li>
-          <li>Yabancı - Albert Camus</li>
-          <li>Kürk Mantolu Madonna - Sabahattin Ali</li>
+        <ul style={{ listStyleType: 'none', padding: 0 }}>
+          <li style={{ marginBottom: '10px' }}>Sineklerin Tanrısı - William Golding</li>
+          <li style={{ marginBottom: '10px' }}>Yabancı - Albert Camus</li>
+          <li style={{ marginBottom: '10px' }}>Kürk Mantolu Madonna - Sabahattin Ali</li>
         </ul>
       </div>
       
       <div style={{ marginTop: '30px' }}>
-        <a href="/kitaplar" style={{
-          display: 'inline-block',
-          padding: '10px 20px',
-          backgroundColor: '#007bff',
-          color: 'white',
-          textDecoration: 'none',
-          borderRadius: '5px',
-          marginTop: '20px'
-        }}>
+        <a 
+          href="/kitaplar" 
+          style={{
+            display: 'inline-block',
+            padding: '10px 20px',
+            backgroundColor: '#007bff',
+            color: 'white',
+            textDecoration: 'none',
+            borderRadius: '5px',
+            marginTop: '20px'
+          }}
+        >
           Tüm Kitapları Görüntüle
         </a>
       </div>
     </div>
-  )
+  );
 }
